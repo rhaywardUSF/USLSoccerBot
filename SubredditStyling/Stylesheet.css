@@ -1,0 +1,255 @@
+/* === All Flair/MTI === */
+a[href*="SA-"]:before, a[href*="MLS-"]:before, a[href*="NASL-"]:before, a[href*="USL-"]:before, a[href*="NPSL-"]:before, .flair:before {
+    content: "";
+    height: 24px;
+    width: 24px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-right: 5px;
+    cursor: default;
+}
+.flair:hover {
+    width: auto;
+    height: 24px;
+    line-height: 24px;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: #ddd;
+    background-color: whitesmoke;
+    margin-right: 1ex;
+    cursor: default
+    
+}
+a[href*="SR-"], a[href*="MLS-"], a[href*="NASL-"], a[href*="USL-"], a[href*="NPSL-"], .flair {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    vertical-align: middle;
+    font-size: inherit;
+    background-color: transparent;
+    color: #222;
+    margin-right: 3px;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 2px;
+}
+a[href*="Assign%20Flair"]
+{
+   height: 20px;
+   padding: 3px;
+   padding-left: 20px;
+   padding-right: 20px;
+   color: white;
+   background-color: green;
+   border: 1px solid darkgreen;
+   border-radius: 20px;
+}
+a[href*="Assign%20Flair"]:hover
+{
+    background-color: darkgreen;
+}
+a[href*="#SA-"], a[href*="#MLS-"], a[href*="#NASL-"], a[href*="#USL-"], a[href*="#NPSL-"] {
+    pointer-events: none;
+}
+/* ==== End of All Flair/MTI ==== */
+
+
+/* ==== Sub Flair/MTI ==== */
+a[href*="SA-"]:before, span[class*="SA-"]:before { background-image: url(%%SubFlair%%); }
+a[href$="SA-118"]:before, span[class$="-SA-118"]:before { background-position: -0px -24px; }
+a[href$="SA-CROC"]:before, span[class$="-SA-CROC"]:before { background-position: -0px -48px; }
+a[href$="SA-CAS"]:before, span[class$="-SA-CAS"]:before { background-position: -0px -72px; }
+a[href$="SA-VEN"]:before, span[class$="-SA-VEN"]:before { background-position: -0px -96px; }
+/* ==== End of Sub Flair/MTI ==== */
+
+/* ==== MLS Flair/MTI ==== */
+a[href*="MLS-"]:before, span[class*="MLS-"]:before { background-image: url(%%MLSFlair%%); }
+a[href$="MLS-MLS"]:before, span[class$="-MLS-MLS"]:before { background-position: -24px -0px; }
+a[href$="MLS-MLS2"]:before, span[class$="-MLS-MLS2"]:before { background-position: -48px -0px; }
+a[href$="MLS-ATL"]:before, span[class$="-MLS-ATL"]:before { background-position: -0px -24px; }
+a[href$="MLS-CHI"]:before, span[class$="-MLS-CHI"]:before { background-position: -0px -48px; }
+a[href$="MLS-COL"]:before, span[class$="-MLS-COL"]:before { background-position: -0px -72px; }
+a[href$="MLS-CLB"]:before, span[class$="-MLS-CLB"]:before { background-position: -0px -96px; }
+a[href$="MLS-DCU"]:before, span[class$="-MLS-DCU"]:before { background-position: -0px -120px; }
+a[href$="MLS-DAL"]:before, span[class$="-MLS-DAL"]:before { background-position: -0px -144px; }
+a[href$="MLS-HOU"]:before, span[class$="-MLS-HOU"]:before { background-position: -0px -168px; }
+a[href$="MLS-LAG"]:before, span[class$="-MLS-LAG"]:before { background-position: -0px -192px; }
+a[href$="MLS-LAFC"]:before, span[class$="-MLS-LAFC"]:before { background-position: -0px -216px; }
+a[href$="MLS-MTL"]:before, span[class$="-MLS-MTL"]:before { background-position: -0px -240px; }
+a[href$="MLS-NER"]:before, span[class$="-MLS-NER"]:before { background-position: -0px -264px; }
+a[href$="MLS-NYCFC"]:before, span[class$="-MLS-NYCFC"]:before { background-position: -0px -288px; }
+a[href$="MLS-NYRB"]:before, span[class$="-MLS-NYRB"]:before { background-position: -0px -312px; }
+a[href$="MLS-OCSC"]:before, span[class$="-MLS-OCSC"]:before { background-position: -0px -336px; }
+a[href$="MLS-PHI"]:before, span[class$="-MLS-PHI"]:before { background-position: -24px -24px; }
+a[href$="MLS-POR"]:before, span[class$="-MLS-POR"]:before { background-position: -24px -48px; }
+a[href$="MLS-RSL"]:before, span[class$="-MLS-RSL"]:before { background-position: -24px -72px; }
+a[href$="MLS-SJE"]:before, span[class$="-MLS-SJE"]:before { background-position: -24px -96px; }
+a[href$="MLS-SEA"]:before, span[class$="-MLS-SEA"]:before { background-position: -24px -120px; }
+a[href$="MLS-SKC"]:before, span[class$="-MLS-SKC"]:before { background-position: -24px -144px; }
+a[href$="MLS-TOR"]:before, span[class$="-MLS-TOR"]:before { background-position: -24px -168px; }
+a[href$="MLS-VWC"]:before, span[class$="-MLS-VWC"]:before { background-position: -24px -192px; }
+/* ==== End of MLS Flair/MTI ==== */
+
+/* ==== NASL Flair ==== */
+a[href*="NASL-"]:before, span[class*="NASL-"]:before { background-image: url(%%NASLFlair%%); }
+a[href$="NASL-NASL"]:before, span[class$="-NASL-NASL"]:before { background-position: -24px -0px; }
+a[href$="NASL-ATL"]:before, span[class$="-NASL-ATL"]:before { background-position: -0px -24px; }
+a[href$="NASL-CAR"]:before, span[class$="-NASL-CAR"]:before { background-position: -0px -48px; }
+a[href$="NASL-FCE"]:before, span[class$="-NASL-FCE"]:before { background-position: -0px -72px; }
+a[href$="NASL-FTL"]:before, span[class$="-NASL-FTL"]:before { background-position: -0px -96px; }
+a[href$="NASL-IND"]:before, span[class$="-NASL-IND"]:before { background-position: -0px -120px; }
+a[href$="NASL-JAX"]:before, span[class$="-NASL-JAX"]:before { background-position: -0px -144px; }
+a[href$="NASL-MIA"]:before, span[class$="-NASL-MIA"]:before { background-position: -0px -168px; }
+a[href$="NASL-MIN"]:before, span[class$="-NASL-MIN"]:before { background-position: -0px -192px; }
+a[href$="NASL-COS"]:before, span[class$="-NASL-COS"]:before { background-position: -0px -216px; }
+a[href$="NASL-OTT"]:before, span[class$="-NASL-OTT"]:before { background-position: -0px -240px; }
+a[href$="NASL-PRFC"]:before, span[class$="-NASL-PRFC"]:before { background-position: -0px -264px; }
+a[href$="NASL-OKC"]:before, span[class$="-NASL-OKC"]:before { background-position: -0px -288px; }
+a[href$="NASL-SAS"]:before, span[class$="-NASL-SAS"]:before { background-position: -0px -312px; }
+a[href$="NASL-TBR"]:before, span[class$="-NASL-TBR"]:before { background-position: -0px -336px; }
+a[href$="NASL-SFD"]:before, span[class$="-NASL-SFD"]:before { background-position: -24px -24px; }
+/* ==== End of NASL Flair/MTI ==== */
+
+/* ==== USL Flair/MTI ==== */
+a[href*="USL-"]:before, span[class*="USL-"]:before { background-image: url(%%USLFlair%%); }
+a[href$="USL-USL"]:before, span[class$="-USL-USL"]:before { background-position: -24px -0px; }
+a[href$="USL-USL2"]:before, span[class$="-USL-USL2"]:before { width: 48px; background-position: -48px -0px; }
+a[href$="USL-USL2"], span[class$="-USL-USL2"] { width: 48px; }
+a[href$="USL-AZU"]:before, span[class$="-USL-AZU"]:before { background-position: -0px -24px; }
+a[href$="USL-AAZ"]:before, span[class$="-USL-AAZ"]:before { background-position: -0px -48px; }
+a[href$="USL-BETH"]:before, span[class$="-USL-BETH"]:before { background-position: -0px -72px; }
+a[href$="USL-BATT"]:before, span[class$="-USL-BATT"]:before { background-position: -0px -96px; }
+a[href$="USL-CIND"]:before, span[class$="-USL-CIND"]:before { background-position: -0px -120px; }
+a[href$="USL-SWCH"]:before, span[class$="-USL-SWCH"]:before { background-position: -0px -144px; }
+a[href$="USL-CINC"]:before, span[class$="-USL-CINC"]:before { background-position: -0px -168px; }
+a[href$="USL-MNRL"]:before, span[class$="-USL-MNRL"]:before { background-position: -0px -192px; }
+a[href$="USL-HCIL"]:before, span[class$="-USL-HCIL"]:before { background-position: -0px -216px; }
+a[href$="USL-LAG2"]:before, span[class$="-USL-LAG2"]:before { background-position: -0px -240px; }
+a[href$="USL-LVC"]:before, span[class$="-USL-LVC"]:before { background-position: -0px -264px; }
+a[href$="USL-NYRB2"]:before, span[class$="-USL-NYRB2"]:before { background-position: -0px -288px; }
+a[href$="USL-ONRG"]:before, span[class$="-USL-ONRG"]:before { background-position: -0px -312px; }
+a[href$="USL-OBLU"]:before, span[class$="-USL-OBLU"]:before { background-position: -0px -336px; }
+a[href$="USL-ORLB"]:before, span[class$="-USL-ORLB"]:before { background-position: -24px -24px; }
+a[href$="USL-RIVR"]:before, span[class$="-USL-RIVR"]:before { background-position: -24px -48px; }
+a[href$="USL-POR2"]:before, span[class$="-USL-POR2"]:before { background-position: -24px -72px; }
+a[href$="USL-SLC2"]:before, span[class$="-USL-SLC2"]:before { background-position: -24px -96px; }
+a[href$="USL-KIKR"]:before, span[class$="-USL-KIKR"]:before { background-position: -24px -120px; }
+a[href$="USL-RGV"]:before, span[class$="-USL-RGV"]:before { background-position: -24px -144px; }
+a[href$="USL-RNOS"]:before, span[class$="-USL-RNOS"]:before { background-position: -24px -168px; }
+a[href$="USL-SREP"]:before, span[class$="-USL-SREP"]:before { background-position: -24px -192px; }
+a[href$="USL-STLO"]:before, span[class$="-USL-STLO"]:before { background-position: -24px -216px; }
+a[href$="USL-STL2"]:before, span[class$="-USL-STL2"]:before { background-position: -24px -240px; }
+a[href$="USL-STL2"]:before, span[class$="-USL-STL2"]:before { background-position: -24px -240px; }
+a[href$="USL-SPRKC"]:before, span[class$="-USL-SPRKC"]:before { background-position: -24px -264px; }
+a[href$="USL-TFC2"]:before, span[class$="-USL-TFC2"]:before { background-position: -24px -288px; }
+a[href$="USL-TULR"]:before, span[class$="-USL-TULR"]:before { background-position: -24px -312px; }
+a[href$="USL-VWC2"]:before, span[class$="-USL-VWC2"]:before { background-position: -24px -336px; }
+a[href$="USL-WHH"]:before, span[class$="-USL-WHH"]:before { background-position: -48px -24px; }
+a[href$="USL-SAFC"]:before, span[class$="-USL-SAFC"]:before { background-position: -48px -48px; }
+a[href$="USL-OCSC"]:before, span[class$="-USL-OCSC"]:before { background-position: -384px -24px; }
+a[href$="USL-ANTB"]:before, span[class$="-USL-ANTB"]:before { background-position: -384px -48px; }
+a[href$="USL-CEGL"]:before, span[class$="-USL-CEGL"]:before { background-position: -384px -72px; }
+a[href$="USL-PHXFC"]:before, span[class$="-USL-PHXFC"]:before { background-position: -384px -96px; }
+a[href$="USL-RPPR"]:before, span[class$="-USL-RPPR"]:before { background-position: -384px -120px; }
+a[href$="USL-SEVPR"]:before, span[class$="-USL-SEVPR"]:before { background-position: -384px -144px; }
+a[href$="USL-VSIT"]:before, span[class$="-USL-VSIT"]:before { background-position: -384px -168px; }
+a[href$="USL-DDL"]:before, span[class$="-USL-DDL"]:before { background-position: -384px -192px; }
+a[href$="USL-FCNY"]:before, span[class$="-USL-FCNY"]:before { background-position: -384px -216px; }
+a[href$="USL-PRUTD"]:before, span[class$="-USL-PRUTD"]:before { background-position: -384px -240px; }
+/* ==== End of USL Flair/MTI ==== */
+
+/* ==== NPSL Flair/MTI ==== */
+a[href*="NPSL-"]:before, span[class*="NPSL-"]:before { background-image: url(%%NPSLFlair%%); }
+a[href$="NPSL-NPSL"]:before, span[class$="-NPSL-NPSL"]:before { background-position: -24px -0px; }
+a[href$="NPSL-NPSL2"]:before, span[class$="-NPSL-NPSL2"]:before { background-position: -384px -120px; }
+a[href$="NPSL-DAYD"]:before, span[class$="-NPSL-DAYD"]:before { background-position: -96px -144px; }
+a[href$="NPSL-BOSCFC"]:before, span[class$="-NPSL-BOSCFC"]:before { background-position: -0px -24px; }
+a[href$="NPSL-BROI"]:before, span[class$="-NPSL-BROI"]:before { background-position: -0px -48px; }
+a[href$="NPSL-GLUFC"]:before, span[class$="-NPSL-GLUFC"]:before { background-position: -0px -72px; }
+a[href$="NPSL-KSFC"]:before, span[class$="-NPSL-KSFC"]:before { background-position: -0px -96px; }
+a[href$="NPSL-NYAC"]:before, span[class$="-NPSL-NYAC"]:before { background-position: -0px -120px; }
+a[href$="NPSL-NYAC2"]:before, span[class$="-NPSL-NYAC2"]:before { background-position: -384px -72px; }
+a[href$="NPSL-COSB"]:before, span[class$="-NPSL-COSB"]:before { background-position: -0px -144px; }
+a[href$="NPSL-RIRED"]:before, span[class$="-NPSL-RIRED"]:before { background-position: -0px -168px; }
+a[href$="NPSL-SUMAR"]:before, span[class$="-NPSL-SUMAR"]:before { background-position: -0px -192px; }
+a[href$="NPSL-SUPHA"]:before, span[class$="-NPSL-SUPHA"]:before { background-position: -0px -216px; }
+a[href$="NPSL-BTFC"]:before, span[class$="-NPSL-BTFC"]:before { background-position: -0px -240px; }
+a[href$="NPSL-CESC"]:before, span[class$="-NPSL-CESC"]:before { background-position: -0px -264px; }
+a[href$="NPSL-ECSSC"]:before, span[class$="-NPSL-ECSSC"]:before { background-position: -0px -288px; }
+a[href$="NPSL-GBFCT"]:before, span[class$="-NPSL-GBFCT"]:before { background-position: -0px -312px; }
+a[href$="NPSL-HERFC"]:before, span[class$="-NPSL-HERFC"]:before { background-position: -0px -336px; }
+a[href$="NPSL-HERFC2"]:before, span[class$="-NPSL-HERFC2"]:before { background-position: -384px -48px; }
+a[href$="NPSL-JBFC"]:before, span[class$="-NPSL-JBFC"]:before { background-position: -24px -24px; }
+a[href$="NPSL-JLSFC"]:before, span[class$="-NPSL-JLSFC"]:before { background-position: -24px -48px; }
+a[href$="NPSL-NJCFC"]:before, span[class$="-NPSL-NJCFC"]:before { background-position: -24px -72px; }
+a[href$="NPSL-ASAC"]:before, span[class$="-NPSL-ASAC"]:before { background-position: -24px -96px; }
+a[href$="NPSL-CUFC"]:before, span[class$="-NPSL-CUFC"]:before { background-position: -24px -120px; }
+a[href$="NPSL-CUFC2"]:before, span[class$="-NPSL-CUFC2"]:before { background-position: -384px -144px; }
+a[href$="NPSL-FCRE"]:before, span[class$="-NPSL-FCFRE"]:before { background-position: -24px -144px; }
+a[href$="NPSL-FREFC"]:before, span[class$="-NPSL-FREFC"]:before { background-position: -24px -168px; }
+a[href$="NPSL-L76"]:before, span[class$="-NPSL-L76"]:before { background-position: -24px -192px; }
+a[href$="NPSL-L762"]:before, span[class$="-NPSL-L762"]:before { background-position: -384px -24px; }
+a[href$="NPSL-VBCFC"]:before, span[class$="-NPSL-VBCFC"]:before { background-position: -24px -216px; }
+a[href$="NPSL-ASFC"]:before, span[class$="-NPSL-ASFC"]:before { background-position: -24px -240px; }
+a[href$="NPSL-CRU23"]:before, span[class$="-NPSL-CRU23"]:before { background-position: -24px -264px; }
+a[href$="NPSL-FCCD"]:before, span[class$="-NPSL-FCCD"]:before { background-position: -24px -288px; }
+a[href$="NPSL-FCCD2"]:before, span[class$="-NPSL-FCCD2"]:before { background-position: -384px -96px; }
+a[href$="NPSL-GREVFC"]:before, span[class$="-NPSL-GREVFC"]:before { background-position: -24px -312px; }
+a[href$="NPSL-MYRBM"]:before, span[class$="-NPSL-MYRBM"]:before { background-position: -24px -336px; }
+a[href$="NPSL-TROAD"]:before, span[class$="-NPSL-TROAD"]:before { background-position: -48px -24px; }
+a[href$="NPSL-CFCSA"]:before, span[class$="-NPSL-CFCSA"]:before { background-position: -48px -48px; }
+a[href$="NPSL-DALCFC"]:before, span[class$="-NPSL-DALCFC"]:before { background-position: -48px -72px; }
+a[href$="NPSL-FCWI"]:before, span[class$="-NPSL-FCWI"]:before { background-position: -48px -96px; }
+a[href$="NPSL-FWVFC"]:before, span[class$="-NPSL-FWVFC"]:before { background-position: -48px -120px; }
+a[href$="NPSL-HRSCA"]:before, span[class$="-NPSL-HRSCA"]:before { background-position: -48px -144px; }
+a[href$="NPSL-JDFC"]:before, span[class$="-NPSL-JDFC"]:before { background-position: -48px -168px; }
+a[href$="NPSL-LRRFC"]:before, span[class$="-NPSL-LRRFC"]:before { background-position: -48px -192px; }
+a[href$="NPSL-LPWFC"]:before, span[class$="-NPSL-LPWFC"]:before { background-position: -48px -216px; }
+a[href$="NPSL-SRFC"]:before, span[class$="-NPSL-SRFC"]:before { background-position: -48px -240px; }
+a[href$="NPSL-TULA"]:before, span[class$="-NPSL-TULA"]:before { background-position: -48px -264px; }
+a[href$="NPSL-BHAMM"]:before, span[class$="-NPSL-BHAMM"]:before { background-position: -48px -288px; }
+a[href$="NPSL-CHATFC"]:before, span[class$="-NPSL-CHATFC"]:before { background-position: -48px -312px; }
+a[href$="NPSL-KXVFOR"]:before, span[class$="-NPSL-KXVFOR"]:before { background-position: -48px -336px; }
+a[href$="NPSL-MEMCFC"]:before, span[class$="-NPSL-MEMCFC"]:before { background-position: -72px -24px; }
+a[href$="NPSL-NASHFC"]:before, span[class$="-NPSL-NASHFC"]:before { background-position: -72px -48px; }
+a[href$="NPSL-NOLAJ"]:before, span[class$="-NPSL-NOLAJ"]:before { background-position: -72px -72px; }
+a[href$="NPSL-FTLS"]:before, span[class$="-NPSL-FTLS"]:before { background-position: -72px -96px; }
+a[href$="NPSL-JAXU"]:before, span[class$="-NPSL-JAXU"]:before { background-position: -72px -120px; }
+a[href$="NPSL-KRAZE"]:before, span[class$="-NPSL-KRAZE"]:before { background-position: -72px -144px; }
+a[href$="NPSL-MIAFUS"]:before, span[class$="-NPSL-MIAFUS"]:before { background-position: -72px -168px; }
+a[href$="NPSL-MIAUTD"]:before, span[class$="-NPSL-MIAUTD"]:before { background-position: -72px -192px; }
+a[href$="NPSL-STOFC"]:before, span[class$="-NPSL-STOFC"]:before { background-position: -72px -216px; }
+a[href$="NPSL-TBR2"]:before, span[class$="-NPSL-TBR2"]:before { background-position: -72px -240px; }
+a[href$="NPSL-WESFC"]:before, span[class$="-NPSL-WESFC"]:before { background-position: -72px -264px; }
+a[href$="NPSL-ACLEV"]:before, span[class$="-NPSL-ACLEV"]:before { background-position: -72px -288px; }
+a[href$="NPSL-ERIC"]:before, span[class$="-NPSL-ERIC"]:before { background-position: -72px -312px; }
+a[href$="NPSL-FCBUF"]:before, span[class$="-NPSL-FCBUF"]:before { background-position: -72px -336px; }
+a[href$="NPSL-FCIND"]:before, span[class$="-NPSL-FCIND"]:before { background-position: -96px -24px; }
+a[href$="NPSL-FPREG"]:before, span[class$="-NPSL-FPREG"]:before { background-position: -96px -48px; }
+a[href$="NPSL-ID11"]:before, span[class$="-NPSL-ID11"]:before { background-position: -96px -72px; }
+a[href$="NPSL-RDOGZ"]:before, span[class$="-NPSL-RDOGZ"]:before { background-position: -96px -96px; }
+a[href$="NPSL-AFCAA"]:before, span[class$="-NPSL-AFCAA"]:before { background-position: -96px -120px; }
+a[href$="NPSL-DETCFC"]:before, span[class$="-NPSL-DETCFC"]:before { background-position: -96px -168px; }
+a[href$="NPSL-GRAPFC"]:before, span[class$="-NPSL-GRAPFC"]:before { background-position: -96px -192px; }
+a[href$="NPSL-KALFC"]:before, span[class$="-NPSL-KALFC"]:before { background-position: -96px -216px; }
+a[href$="NPSL-LANU"]:before, span[class$="-NPSL-LANU"]:before { background-position: -96px -240px; }
+a[href$="NPSL-MICHS"]:before, span[class$="-NPSL-MICHS"]:before { background-position: -96px -264px; }
+a[href$="NPSL-CDAU"]:before, span[class$="-NPSL-CDAU"]:before { background-position: -96px -288px; }
+a[href$="NPSL-REALSJ"]:before, span[class$="-NPSL-REALSJ"]:before { background-position: -96px -312px; }
+a[href$="NPSL-SACG"]:before, span[class$="-NPSL-SACG"]:before { background-position: -96px -336px; }
+a[href$="NPSL-SFRAS"]:before, span[class$="-NPSL-SFRAS"]:before { background-position: -120px -24px; }
+a[href$="NPSL-SCSOL"]:before, span[class$="-NPSL-SCSOL"]:before { background-position: -120px -48px; }
+a[href$="NPSL-OSAFC"]:before, span[class$="-NPSL-OSAFC"]:before { background-position: -120px -72px; }
+a[href$="NPSL-SPAFC"]:before, span[class$="-NPSL-SPAFC"]:before { background-position: -120px -96px; }
+a[href$="NPSL-ALBFC"]:before, span[class$="-NPSL-ALBFC"]:before { background-position: -120px -120px; }
+a[href$="NPSL-DCORU"]:before, span[class$="-NPSL-DCORU"]:before { background-position: -120px -144px; }
+a[href$="NPSL-FCHAS"]:before, span[class$="-NPSL-FCHAS"]:before { background-position: -120px -168px; }
+a[href$="NPSL-NCBAT"]:before, span[class$="-NPSL-NCBAT"]:before { background-position: -120px -192px; }
+a[href$="NPSL-SCALSC"]:before, span[class$="-NPSL-SCALSC"]:before { background-position: -120px -216px; }
+a[href$="NPSL-SCCUSA"]:before, span[class$="-NPSL-SCCUSA"]:before { background-position: -120px -240px; }
+a[href$="NPSL-TEMFC"]:before, span[class$="-NPSL-TEMFC"]:before { background-position: -120px -264px; }
+a[href$="NPSL-DAYGCS"]:before, span[class$="-NPSL-DAYGCS"]:before { background-position: -48px -0px; }
+a[href$="NPSL-DAYGCS2"]:before, span[class$="-NPSL-DAYGCS2"]:before { background-position: -72px -0px; }
+/* ==== End of NPSL Flair/MTI ==== */
